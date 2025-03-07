@@ -14,6 +14,8 @@ public class Main {
             System.out.println("5. Cylinder");
             System.out.println("6. Pyramid");
             System.out.println("7. Exit");
+
+            int choice = scanner.nextInt();
         }
     }
 }
