@@ -12,4 +12,8 @@ class Rectangle extends Shape {
     public double calculatePerimeter() {
         return 2 * (dim_one + dim_two);
     }
+
+    public int getNumSides() {
+        return 4;
+    }
 }
