@@ -1,0 +1,3 @@
+//Volume.java
+interface Volume {
+}
