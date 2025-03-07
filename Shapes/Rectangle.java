@@ -1,0 +1,2 @@
+class Rectangle extends Shape {
+}
