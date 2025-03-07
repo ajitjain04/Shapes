@@ -17,4 +17,9 @@ abstract class Shape {
         this.dim_two = dim_two;
         this.dim_three = dim_three;
     }
+
+    // Non-abstract method
+    public String getShapeType() {
+        return this.getClass().getSimpleName();
+    }
 }
