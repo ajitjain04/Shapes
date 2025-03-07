@@ -22,4 +22,8 @@ abstract class Shape {
     public String getShapeType() {
         return this.getClass().getSimpleName();
     }
+
+    // Abstract methods
+    abstract public double calculateArea();
+    abstract public double calculatePerimeter();
 }
